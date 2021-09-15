@@ -21,12 +21,12 @@ PM_START_TEXT = """
 
 *ഹായ് {}, എന്റെ പേര് {}!*
 
-*ഞാൻ* [ഇദ്ദേഹം](https://t.me/BANDU_OF_tg) *നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.*
+*ഞാൻ* [ഇദ്ദേഹം](tg://user?id={}) *നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.*
 
 *എന്നെപ്പോലെ ഒരു അഡ്മിൻ ബോട്ടിനെ ഉണ്ടാക്കുവാൻ [UPDATES CHANNEL ](https://t.me/kalyaniv1) JOIN ചെയ്യുക 
 
 *ലഭ്യമായ കമാന്റുകളെപ്പറ്റി അറിയുവാൻ /help അമർത്തുക.*
-
+*DEVELOPER [BANDU](https://t.me/bandu_of_tg)
 """
 
 HELP_STRINGS = """
@@ -40,6 +40,7 @@ Hey there! My name is *{}*.
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
+
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
